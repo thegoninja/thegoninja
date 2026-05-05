@@ -11,7 +11,7 @@
 **Backend Engineer · Go · Distributed Systems · Fintech**
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thegoninja)
-[![Blog](https://img.shields.io/badge/Blog-1A2F5A?style=flat-square&logo=hashnode&logoColor=white)](https://weblog.thegoninja.space)
+[![Blog](https://img.shields.io/badge/Blog-1A2F5A?style=flat-square&logo=hashnode&logoColor=white)](https://thegoninja.hashnode.dev)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:oluwatosinthompson3@gmail.com)
 
 </div>
@@ -24,7 +24,7 @@ Backend engineer based in **Lagos, Nigeria** with 4+ years building financial in
 
 Currently at **FairMoney**, where I'm building FairMoney Collect: a field collections platform for agents working across Nigeria, including GPS-verified visits, offline-first action queuing, and live loan data from upstream core banking systems.
 
-Before that, I led a 2-week **GBP payment system migration** for a UK bank — 80-person team, zero downtime, £50k+ in savings. That kind of deadline sharpens you.
+Before that, I led a 2-week **GBP payment system migration** for a UK bank — 10-person team, zero downtime, £50k+ in savings. That kind of deadline sharpens you.
 
 I believe software engineering is a craft. I write code that the person after me can read, systems that the on-call engineer can debug at 3am, and PRs that explain *why*, not just *what*.
 
@@ -52,9 +52,9 @@ type Engineer struct {
 | **FairMoney Collect** | Field collections platform for 45+ agents — offline-first, GPS-verified visits, live loan data | Go, AWS, PostgreSQL |
 | **Cross-border Payment System** | Production multi-currency remittance system at FCMB Rova MFB — enables Nigerian users to send and receive funds across currencies, built and shipped in a 2-week sprint | Go, REST, PostgreSQL, Microservices |
 | **GBP Payment Migration** | Led full migration of the GBP payment system across core banking platforms for an 80-person global team — zero downtime, £50k+ saved | Go, Core Banking, Microservices |
-| **Leeta** | LNG/LPG marketplace eliminating the need to physically transport gas cylinders | Go, REST, PostgreSQL |
+| **Leeta** | LNG/LPG marketplace eliminating the need to physically transport gas cylinders | Go, REST, MongoDB |
 | **Church Design Hub** | Dual-site request management system for a 7-designer church media team | Firebase, Netlify, Vanilla JS |
-| **MyHeritageApp** | Church media app with streaming + data collection for 1000+ members | Go, REST |
+| **MyHeritageApp** | Church media app with streaming + data collection for 1000+ members | Go, REST, Brevo, Paystack, Heroku |
 
 ---
 
@@ -83,8 +83,8 @@ A few things I care about as an engineer:
 
 ## `currently reading`
 
+- *The Software Engineer's Guidebook (Navigating senior, tech lead, and staff engineer positions at tech companies and startups)* - Gergely Orosz
 - *Designing Data-Intensive Applications* — Martin Kleppmann
-- AWS Solutions Architect study materials
 
 ---
 
