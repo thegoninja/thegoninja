@@ -3,7 +3,7 @@
 
 ```
 ╔═══════════════════════════════════════════════════════════╗
-║   building systems that don't break                       ║
+║   building systems that don't break at 3am               ║
 ╚═══════════════════════════════════════════════════════════╝
 ```
 
@@ -39,6 +39,7 @@ type Engineer struct {
     Cloud      []string{"AWS (EC2, SNS, SQS, S3)", "Docker", "Render", "Heroku"}
     Databases  []string{"PostgreSQL", "MongoDB", "Firebase Firestore"}
     Observability []string{"Prometheus", "Grafana", "Groundcover", "CloudWatch", "Tally", "Scope"}
+    Tools       []string{"Retool", "Git", "Postman", "Notion"}
     Currently  string{"AWS Solutions Architect (in progress)"}
 }
 ```
@@ -50,6 +51,9 @@ type Engineer struct {
 | Project | What it does | Stack |
 |---|---|---|
 | **FairMoney Collect** | Field collections platform for 45+ agents — offline-first, GPS-verified visits, live loan data | Go, AWS, PostgreSQL |
+| **FlexiCredit** | Overdraft and credit system at FairMoney — event-driven transaction handling, interest calculation, and accrual visibility for millions of users | Go, AWS SQS, PostgreSQL |
+| **Loan Collections** | Automated collections engine — reacts to real-time repayment status changes, scheduling collections on fixed future dates based on loan extension selections | Go, Temporal, AWS SNS/SQS |
+| **Loan Extension** | End-to-end loan extension feature allowing users to defer repayments to fixed future dates, with collections automatically rescheduled — owned from data modelling to AWS SQS integration | Go, Temporal, AWS SQS, PostgreSQL |
 | **Cross-border Payment System** | Production multi-currency remittance system at FCMB Rova MFB — enables Nigerian users to send and receive funds across currencies, built and shipped in a 2-week sprint | Go, REST, PostgreSQL, Microservices |
 | **GBP Payment Migration** | Led full migration of the GBP payment system across core banking platforms for an 80-person global team — zero downtime, £50k+ saved | Go, Core Banking, Microservices |
 | **Leeta** | LNG/LPG marketplace eliminating the need to physically transport gas cylinders | Go, REST, MongoDB |
@@ -83,7 +87,7 @@ A few things I care about as an engineer:
 
 ## `currently reading`
 
-- *The Software Engineer's Guidebook (Navigating senior, tech lead, and staff engineer positions at tech companies and startups)* - Gergely Orosz
+- *The Software Engineer's Guidebook (Navigating senior, tech lead, and staff engineer positions at tech companies and startups)* — Gergely Orosz
 - *Designing Data-Intensive Applications* — Martin Kleppmann
 
 ---
