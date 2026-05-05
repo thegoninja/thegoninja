@@ -40,7 +40,7 @@ type Engineer struct {
     Databases  []string{"PostgreSQL", "MongoDB", "Firebase Firestore"}
     Observability []string{"Prometheus", "Grafana", "Groundcover", "CloudWatch", "Tally", "Scope"}
     Tools       []string{"Retool", "Git", "Postman", "Notion"}
-    Currently  string{"AWS Solutions Architect (in progress)"}
+    Currently  string{"AWS Solutions Architect (in view)"}
 }
 ```
 
@@ -66,7 +66,7 @@ type Engineer struct {
 
 - 🔧 &nbsp;**FairMoney Collect** — shipping phase 3 (offline sync) and phase 4 (mobile screens), targeting 45 agents live by May 2026
 - 🛒 &nbsp;**Nova Adorn** — Go backend for a Nigerian jewellery e-commerce platform, Paystack integration
-- ☁️ &nbsp;**AWS Solutions Architect** — certification in progress
+- ☁️ &nbsp;**AWS Solutions Architect** — in view
 - 📐 &nbsp;**System design** — working through *Designing Data-Intensive Applications* and building the muscle
 
 ---
